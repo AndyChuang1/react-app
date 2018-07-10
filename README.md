@@ -65,16 +65,16 @@ For the project to build, **these files must exist with exact filenames**:
 
 ### Components
 The components folder contains all of the React components. These components are organized into the following structure.
-*`pages`:Pages contains all the components related to individual pages of the application. Contains both presentational components and any containers.
-	*`home`: This is original components created by [Create React App](https://github.com/facebookincubator/create-react-app).
-	*`sayhi`: Practice Components and Props using react.js.
-	*`namecards`*: Practice create HTML element depend on datas dynamically.
-	*`clock`*: Learn the concept of JSX rendering.
-	*`calculator`*: Practice State and Lifecycle by making convertor of length.
-	*`TodoList`*: Practice plan architecture of components to learn relations between father components and childen components.
-	*`TodoListRedux`*: Learn the concept of Redux and understand difference wheather useing Redux or not.
-	*`counter`*: Practice State and pure function.
-	*`counterRedux`*: Learn the concept of Redux and understand difference between counter.
+* `pages`:Pages contains all the components related to individual pages of the application. Contains both presentational components and any containers.
+	* `home`: This is original components created by [Create React App](https://github.com/facebookincubator/create-react-app).
+	* `sayhi`: Practice Components and Props using react.js.
+	* `namecards`*: Practice create HTML element depend on datas dynamically.
+	* `clock`*: Learn the concept of JSX rendering.
+	* `calculator`*: Practice State and Lifecycle by making convertor of length.
+	* `TodoList`*: Practice plan architecture of components to learn relations between father components and childen components.
+	* `TodoListRedux`*: Learn the concept of Redux and understand difference wheather useing Redux or not.
+	* `counter`*: Practice State and pure function.
+	* `counterRedux`*: Learn the concept of Redux and understand difference between counter.
 ## Available Scripts
 
 In the project directory, you can run:
