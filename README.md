@@ -68,13 +68,14 @@ The components folder contains all of the React components. These components are
 * `pages`:Pages contains all the components related to individual pages of the application. Contains both presentational components and any containers.
 	* `home`: This is original components created by [Create React App](https://github.com/facebookincubator/create-react-app).
 	* `sayhi`: Practice Components and Props using react.js.
-	* `namecards`*: Practice create HTML element depend on datas dynamically.
-	* `clock`*: Learn the concept of JSX rendering.
-	* `calculator`*: Practice State and Lifecycle by making convertor of length.
-	* `TodoList`*: Practice plan architecture of components to learn relations between father components and childen components.
-	* `TodoListRedux`*: Learn the concept of Redux and understand difference wheather useing Redux or not.
-	* `counter`*: Practice State and pure function.
-	* `counterRedux`*: Learn the concept of Redux and understand difference between counter.
+	* `namecards`: Practice create HTML element depend on datas dynamically.
+	* `clock`: Learn the concept of JSX rendering.
+	* `calculator`: Practice State and Lifecycle by making convertor of length.
+	* `TodoList`: Practice plan architecture of components to learn relations between father components and childen components.
+	* `TodoListRedux`: Learn the concept of Redux and understand difference wheather useing Redux or not.
+	* `counter`: Practice State and pure function.
+	* `counterRedux`: Learn the concept of Redux and understand difference between counter.
+* `store`: rootReducer is combination of Reducer.
 ## Available Scripts
 
 In the project directory, you can run:
@@ -114,9 +115,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 
 ## Reference
--[React.js](https://reactjs.org/)
--[Redux](https://redux.js.org/)
--[React.js and Redux深入解析](http://huziketang.mangojuice.top/books/react/)
--[IT邦React - DOM界的彼方](https://ithelp.ithome.com.tw/users/20103131/ironman/1012)
--[IT邦30天React從入門到入坑](https://ithelp.ithome.com.tw/users/20107317/ironman/1261)
--[IT邦寫React的那些事](https://ithelp.ithome.com.tw/users/20078318/ironman/1106)
+- [React.js](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [React.js and Redux深入解析](http://huziketang.mangojuice.top/books/react/)
+- [IT邦React - DOM界的彼方](https://ithelp.ithome.com.tw/users/20103131/ironman/1012)
+- [IT邦30天React從入門到入坑](https://ithelp.ithome.com.tw/users/20107317/ironman/1261)
+- [IT邦寫React的那些事](https://ithelp.ithome.com.tw/users/20078318/ironman/1106)
