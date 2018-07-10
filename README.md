@@ -10,8 +10,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 	-[Components](#components)
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
-  - [npm test](#npmqweasd
-  -test)
+  - [npm test](#npmqweasd-test)
   - [npm run build](#npm-run-build)
   - [npm run eject](#npm-run-eject)
 -[Reference](#reference)
@@ -64,7 +63,7 @@ For the project to build, **these files must exist with exact filenames**:
 * `public/index.html` is the page template;
 * `src/index.js` is the JavaScript entry point.
 
-###Components
+### Components
 The components folder contains all of the React components. These components are organized into the following structure.
 *`pages`:Pages contains all the components related to individual pages of the application. Contains both presentational components and any containers.
 	*`home`: This is original components created by [Create React App](https://github.com/facebookincubator/create-react-app).
