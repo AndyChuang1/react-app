@@ -7,7 +7,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 - [Build Setup](#build-setup)
 - [Folder Structure](#folder-structure)
-	-[Components](#components)
+	- [Components](#components)
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
   - [npm test](#npmqweasd-test)
