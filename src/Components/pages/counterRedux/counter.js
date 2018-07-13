@@ -8,7 +8,7 @@ class CounterBoard extends Component {
         const { value, onClickAdd, onClickSub } = this.props;
         return (
             <div>
-                <p><h2>Count: {value}</h2></p>
+                <h2>Count: {value}</h2>
                 <div>
                     <button className='btn btn-primary mr-2' onClick={onClickAdd}>Increase</button>
                     <button className='btn btn-primary mr-2' onClick={onClickSub}>Decrease</button>

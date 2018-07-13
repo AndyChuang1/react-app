@@ -1,7 +1,6 @@
 ﻿import React, { Component } from 'react';
 import TodoList from './todoList';
 import TodoAdd from './todoAdd';
-import * as TodoActions from './actions/todoAction'
 import FilterContainer from './filterContainer'
 
 

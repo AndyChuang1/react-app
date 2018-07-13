@@ -17,7 +17,6 @@ class TodoAdd extends Component {
 
     onAddClick() {
         const addInput = this.refs.addInput;
-        console.log(addInput);
         this.props.addTask(addInput.value);
         
         addInput.value = '';

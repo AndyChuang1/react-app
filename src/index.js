@@ -102,7 +102,7 @@ ReactDOM.render(
 
 
                 <Route exact path="/" component={App} />
-                <Route path="/SayHi" component={(props) => <SayHi name="Andy" />} />
+                <Route path="/SayHi" component={(props) => <SayHi name="AAA" />} />
                 <Route path="/Card" component={(props) => <Card name='Andy' contents={me.contents} />} />
                 <Route path="/Clock" component={Clock} />
                 <Route path="/Calculator" component={Calculator} />
@@ -112,7 +112,8 @@ ReactDOM.render(
                 <Route path="/CounterRedux" component={CounterApp} />
                 
             </div>
-        </Router></Provider>, document.getElementById('root'));
+    </Router>
+    </Provider >, document.getElementById('root'));
 
 
 //ReactDOM.render(<App />, document.getElementById('root'));

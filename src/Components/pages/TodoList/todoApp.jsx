@@ -41,7 +41,7 @@ class todoapp extends Component {
         );
     }
 
-    saveTask(idx, val) {
+    saveTask(idx, val)  {
         // copy array
         let newTodos = [...this.state.todos];
         

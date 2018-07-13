@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 //const Condition = (props) => (props.length >= 200) ? <p> You can be a basketball player</p> : <p> You can be a football player</p>
 const scaleName = {
     cm: 'Centermeter',
