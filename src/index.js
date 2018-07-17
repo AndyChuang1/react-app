@@ -17,7 +17,7 @@ import { Provider } from 'react-redux';
 import rootReducer from './Components/store/rootReducer.js';
 import CounterApp from "./Components/pages/counterRedux/counterApp";
 import Counter from "./Components/pages/counter/Counter"
-
+import ReduxFlow from "./Components/pages/ReduxFlow/index"
 let store = createStore(rootReducer);
 console.log(store);
 
@@ -96,6 +96,10 @@ ReactDOM.render(
                             <Link className="nav-link" to="/CounterRedux">CounterRedux</Link>
                         </li>
 
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/ReduxFlow">ReduxFlow</Link>
+                        </li>
+
                        
                     </ul>
                 </nav>
@@ -110,7 +114,7 @@ ReactDOM.render(
                 <Route path="/TodoListRedux" component={TodoRedux} />
                 <Route path="/Counter" component={Counter} />
                 <Route path="/CounterRedux" component={CounterApp} />
-                
+                <Route path="/ReduxFlow" component={ReduxFlow} />
             </div>
     </Router>
     </Provider >, document.getElementById('root'));

@@ -9,6 +9,7 @@ const initialData = {
 function calculator(state = initialData, action) {
     switch (action.type) {
         case PLUS:
+            console.log(state);
             console.log("++");
             return  {
                 value: state.value + action.num

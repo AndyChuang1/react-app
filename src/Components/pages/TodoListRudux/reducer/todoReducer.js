@@ -28,6 +28,7 @@ const inttodos = [
 export function todos(state = inttodos, action) {
     switch (action.type) {
         case ADD_TASK:
+            console.log(state);
             return [
                 ...state,
                 {

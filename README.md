@@ -22,6 +22,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 npm install 
 # serve with hot reload at localhost:3000
 npm start
+
 ```
 
 
@@ -48,9 +49,11 @@ my-app/
 			counterRedux/
 			home/
 			nameCards/
+			ReduxFlow/
 			sayhi/
 			TodoList/
 			TodoListRudux/
+			ReduxFlow/
 		store/
 	imag/
     index.css
@@ -75,6 +78,7 @@ The components folder contains all of the React components. These components are
 	* `TodoListRedux`: Learn the concept of Redux and understand difference wheather useing Redux or not.
 	* `counter`: Practice State and pure function.
 	* `counterRedux`: Learn the concept of Redux and understand difference between counter.
+	* `ReduxFlow`: Improve the impression of Redux, Let every component get the state and dispatch from the store.
 * `store`: rootReducer is combination of Reducer.
 ## Available Scripts
 
